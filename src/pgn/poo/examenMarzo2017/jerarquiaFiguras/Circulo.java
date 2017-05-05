@@ -1,7 +1,9 @@
 package pgn.poo.examenMarzo2017.jerarquiaFiguras;
 
 import pgn.poo.examenMarzo2017.estructuras.DimensionNoValidaException;
-
+/**
+*@author Dageno25
+*/
 public class Circulo extends FiguraCerrada{
 	private double radio;
 	public Circulo(double radio) throws DimensionNoValidaException {
